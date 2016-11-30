@@ -1,0 +1,65 @@
+/* CSS Document */
+* {
+	font-family: sans-serif;
+}
+
+
+/* HEADER */
+header {
+	float: right;
+	/*margin-top: -130px;*/
+	margin-right: 20px;
+}
+
+header ul li {
+	margin-left: 20px;
+}
+
+header ul {
+/*	border: green solid 2px;
+	display: inline; */
+}
+
+
+
+/* MAIN */
+#main	{
+/*	border: black solid ;  */
+	text-align: center;
+	padding-top: 50px;
+	height: 500px;
+
+}
+
+.mainHeader {
+		margin-top: 130px;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+}
+
+
+/* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 97.5%;
+	background-color: grey;
+}
+
+.footer-left li, .footer-right li {
+	margin-right: 20px;
+}
+.footer-left {
+	float: left;
+}
+
+.footer-right {
+	float: right;
+}
+
